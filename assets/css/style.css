@@ -84,8 +84,19 @@ nav a:hover {
 }
 
 /* About */
-#about article {
+#about {
     display: flex;
+
+
+}
+
+
+#about article {
+    padding: 1rem;
+    margin: 1rem;
+    border: 5px solid var(--purple-500);
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
@@ -196,7 +207,7 @@ form span{
 /* Mapa */
 .article_mapa {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     gap: 1rem;
